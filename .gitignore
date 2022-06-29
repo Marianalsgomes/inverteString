@@ -1,0 +1,23 @@
+
+int main (){
+	
+	int contador;
+	char palavra [5];
+	
+	cout <<"digite uma palavra \n";
+	
+	for(contador = 0; contador <=4; contador ++){
+		cin >> palavra[contador];
+	}
+	for(contador = 0; contador <=4; contador ++){
+		cout << palavra[contador];
+	}
+	cout <<"\n";
+	
+	for(contador = 4; contador >=0; contador--){
+		cout << palavra[contador];
+	}
+	
+	return 0;
+	
+}
